@@ -1,4 +1,4 @@
-Tugas Projecr membuat website todo-list
+Tugas Project membuat website todo-list
 
 Kelompok
 -Adrian Hutagalung
