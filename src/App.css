@@ -1,0 +1,153 @@
+/* App.css */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Card Style */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: transform 0.2s;
+}
+
+.form-card {
+  background: #ffffff;
+  border-top: 5px solid #6c5ce7;
+}
+
+/* Form Inputs */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #6c5ce7;
+}
+
+.textarea-field {
+  resize: none;
+  height: 60px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.btn-add {
+  width: 100%;
+  padding: 12px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #5b4cc4;
+}
+
+/* Todo List Items */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item.completed {
+  opacity: 0.7;
+  background-color: #fafafa;
+}
+
+.todo-item.completed h3 {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-content h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.desc {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.meta {
+  font-size: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.status-badge.incomplete {
+  background-color: #ffeaa7;
+  color: #d35400;
+}
+
+.status-badge.completed {
+  background-color: #55efc4;
+  color: #00b894;
+}
+
+/* Buttons */
+.todo-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-check, .btn-delete {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.btn-check {
+  background-color: #e2e8f0;
+}
+.btn-check:hover { background-color: #cbd5e1; }
+
+.btn-delete {
+  background-color: #ff7675;
+  color: white;
+}
+.btn-delete:hover { background-color: #d63031; }
